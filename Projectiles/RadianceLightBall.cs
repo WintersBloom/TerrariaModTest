@@ -98,8 +98,12 @@ namespace OurMod.Projectiles
                     NPC.HitInfo hitInfo=new NPC.HitInfo();
                     hitInfo.Damage=Projectile.damage;
                     hitInfo.Crit=false;     //无法暴击
-                    if(npc.type==)hitInfo.Knockback=6f;   //击退
-                    hitInfo.HitDirection=explosionCenter.X>npc.Center.X?-1:1;   //判断攻击方向（确保不会反向击退）(HitDirection指攻击的朝向，也就是怪在攻击的哪边)
+                    if(npc.type!=NPCID.TargetDummy)   // 训练假人（傀儡）不吃击退
+                    {
+                        hitInfo.Knockback = 6f; //击退
+                        hitInfo.HitDirection=explosionCenter.X>npc.Center.X?-1:1;   //判断攻击方向（确保不会反向击退）(HitDirection指攻击的朝向，也就是怪在攻击的哪边)
+
+                    }
                     npc.StrikeNPC(hitInfo);
                 }
             }
