@@ -19,6 +19,11 @@ Items: {
 		DisplayName: Radiance Staff
 		Tooltip: The light forgotten in dreams
 	}
+
+	Congyuwan: {
+		Tooltip: ""
+		DisplayName: Congyuwan
+	}
 }
 
 Projectiles: {

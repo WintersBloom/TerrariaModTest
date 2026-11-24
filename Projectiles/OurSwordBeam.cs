@@ -4,6 +4,7 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using System;
+using OurMod.Common;
 
 namespace OurMod.Projectiles;
 
@@ -59,6 +60,7 @@ public class OurSwordBeam : ModProjectile
     public override bool OnTileCollide(Vector2 oldVelocity)
     {
         SoundEngine.PlaySound(SoundID.Item27 with { Volume = 0.7f, PitchVariance = 0.15f }, Projectile.Center);
+        DustBurst.Fan(Projectile.Center,-Projectile.velocity,5,90,Color.White);
         return true;
     }
 
@@ -66,5 +68,6 @@ public class OurSwordBeam : ModProjectile
     public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
     {
         SoundEngine.PlaySound(SoundID.Item27 with { Volume = 0.7f, PitchVariance = 0.15f }, Projectile.Center);
+        DustBurst.Fan(Projectile.Center,-Projectile.velocity,5,90,Color.White);
     }
 }

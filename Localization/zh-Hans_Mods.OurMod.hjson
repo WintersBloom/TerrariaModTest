@@ -19,6 +19,11 @@ Items: {
 		DisplayName: 辐光法杖
 		Tooltip: 被遗忘于梦中的光芒
 	}
+
+	Congyuwan: {
+		// Tooltip: ""
+		// DisplayName: Congyuwan
+	}
 }
 
 Projectiles: {
