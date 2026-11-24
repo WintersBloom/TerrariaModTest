@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\tModLoader.targets" />
   <PropertyGroup>
     <AssemblyName>OurMod</AssemblyName>
@@ -9,5 +9,8 @@
   <!-- _Dev 里是临时开发工具（如贴图导出器），不参与编译，避免被 tML 自动加载执行 -->
   <ItemGroup>
     <Compile Remove="_Dev/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dusts\" />
   </ItemGroup>
 </Project>
