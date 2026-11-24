@@ -1,3 +1,4 @@
-﻿displayName = Our Mod
+displayName = Our Mod
 author = WinterBloom,KissSky
 version = 1.0
+buildIgnore = Assets/VanillaSounds/*, Assets/VanillaProjectiles/*
