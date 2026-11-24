@@ -95,15 +95,23 @@ namespace OurMod.Projectiles
                 NPC npc=Main.npc[i];
                 if(npc.active && !npc.friendly && !npc.dontTakeDamage && Vector2.Distance(explosionCenter, npc.Center) <= explosionRadius)
                 {
-                    NPC.HitInfo hitInfo=new NPC.HitInfo();
-                    hitInfo.Damage=Projectile.damage;
-                    hitInfo.Crit=false;     //无法暴击
-                    if(npc.type!=NPCID.TargetDummy)   // 训练假人（傀儡）不吃击退
-                    {
-                        hitInfo.Knockback = 6f; //击退
-                        hitInfo.HitDirection=explosionCenter.X>npc.Center.X?-1:1;   //判断攻击方向（确保不会反向击退）(HitDirection指攻击的朝向，也就是怪在攻击的哪边)
+                    //攻击方向：怪在爆心右边就向左推，在左边就向右推（确保不会被反向击退）
+                    //HitDirection 指攻击的朝向，也就是怪在攻击的哪一边
+                    int hitDirection=explosionCenter.X>npc.Center.X?-1:1;
 
-                    }
+                    //规范写法：用原版的计算入口生成 HitInfo，而不是手动 new 再填字段。
+                    //CalculateHitInfo 内部会走 GetIncomingStrikeModifiers，自动完成：
+                    //  1. 减去目标防御；2. 乘上目标的击退抗性 knockBackResist；
+                    //  3. 对 knockBackResist==0 的目标（如训练假人 NPCID.TargetDummy）自动禁用击退；
+                    //  4. 触发其他 mod 的 ModifyIncomingHit 钩子。
+                    //手动 new HitInfo 会跳过以上全部计算，所以才会出现"击退假人"这种反常效果。
+                    NPC.HitInfo hitInfo=npc.CalculateHitInfo(
+                        Projectile.damage,      //基础伤害，内部会减去目标防御
+                        hitDirection,           //击退方向
+                        crit:false,             //不暴击
+                        knockBack:6f,           //期望击退强度，目标抗性为 0 时会被自动清零
+                        damageType:DamageClass.Magic    //伤害类型，参与减伤/增伤的判定
+                    );
                     npc.StrikeNPC(hitInfo);
                 }
             }
