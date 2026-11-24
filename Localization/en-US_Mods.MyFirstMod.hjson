@@ -1,0 +1,24 @@
+Mods: {
+	MyFirstMod: {
+		Items: {
+			MySword: {
+				DisplayName: My Sword
+				Tooltip: ""
+			}
+		}
+	}
+}
+
+Items: {
+	MySword: {
+		DisplayName: My Sword
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	MySwordBeam: {
+		DisplayName: MySwordBeam
+		Tooltip: ""
+	}
+}

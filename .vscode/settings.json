@@ -1,0 +1,6 @@
+﻿{
+  // 本工作区强制 UTF-8 BOM，优先级高于全局设置
+  "files.encoding": "utf8bom",
+  "files.autoGuessEncoding": false,
+  "files.eol": "\r\n"
+}

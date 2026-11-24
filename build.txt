@@ -1,0 +1,3 @@
+﻿displayName = My First Mod
+author = WinterBloom,KissSky
+version = 1.0
