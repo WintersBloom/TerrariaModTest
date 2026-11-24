@@ -10,16 +10,16 @@ namespace OurMod.Projectiles
         //基础设置
         public override void SetDefaults()
         {
-            Projectile.width = 40;
-            Projectile.height = 40;
+            Projectile.width = 24;
+            Projectile.height = 24;     //这里设置的比实际贴图大小小点，40*40碰撞箱太大了
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Magic;
-            Projectile.penetrate = 1;           // 只穿透一次
+            Projectile.penetrate = 1;           // 只命中一次就消失
             Projectile.timeLeft = 300;          // 最大存在5秒
-            Projectile.tileCollide = true;     // 可穿墙
+            Projectile.tileCollide = true;     // 不可穿墙
             Projectile.aiStyle = 0;             // 关闭原版 AI
             Projectile.usesLocalNPCImmunity = true; // 开启局部无敌帧
-            Projectile.localNPCHitCooldown = -1;    // 允许对同一个敌怪每帧都能造成伤害（由我们手动控制独立无敌帧）
+            Projectile.localNPCHitCooldown = -1;    // -1局部无敌帧，对一个敌怪只能造成一次伤害（爆炸伤害独立计算）
         }
         public override void AI()
         {
@@ -27,7 +27,7 @@ namespace OurMod.Projectiles
             //运动逻辑
             Projectile.ai[0]++;
             Lighting.AddLight(Projectile.Center,0.85f,0.8f,0.7f);       //自带光（三个数字分别代表红、绿、蓝的亮度，数值范围0~1，现在是略带金光的白光）
-            if(Projectile.ai[0]<=20){
+            if(Projectile.ai[0]<=30){
                 //前0.5s无操作
             }
             /*
@@ -84,8 +84,8 @@ namespace OurMod.Projectiles
             Projectile.rotation+=0.2f;       //始终逆时针自转，约0.5s/圈
         }
 
-        //命中后逻辑
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        //射弹消失后逻辑
+        public override void OnKill(int timeLeft)
         {
             //产生爆炸：
             Vector2 explosionCenter=Projectile.Center;
@@ -121,10 +121,10 @@ namespace OurMod.Projectiles
                 float rad=Main.rand.NextFloat(MathHelper.TwoPi);
                 Vector2 direction=rad.ToRotationVector2();//生成0~2pi的随机弧度再转为方向向量
                 float speed=Main.rand.NextFloat(1f,6f);
-                Vector2 velocity=direction*speed;       //生成1~6随机速度并附上方向向量
+                Vector2 velocity=direction*speed;       //生成3~12随机速度并附上方向向量
                 int DustIndex = Dust.NewDust(
                     Projectile.Center,      //中心
-                    15,15,                  //生成范围的宽高
+                    20,20,                  //生成范围的宽高
                     DustID.SilverCoin,      //白色粒子
                     velocity.X,velocity.Y,  //方向速度
                     100,                    //透明度
