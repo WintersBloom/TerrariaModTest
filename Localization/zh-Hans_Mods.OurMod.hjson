@@ -1,0 +1,31 @@
+Mods: {
+	OurMod: {
+		Items: {
+			OurSword: {
+				// DisplayName: My Sword
+				// Tooltip: ""
+			}
+		}
+	}
+}
+
+Items: {
+	OurSword: {
+		DisplayName: My Sword
+		Tooltip: ""
+	}
+
+	RadianceStaff: {
+		DisplayName: 辐光法杖
+		Tooltip: 被遗忘于梦中的光芒
+	}
+}
+
+Projectiles: {
+	OurSwordBeam: {
+		// DisplayName: OurSwordBeam
+		// Tooltip: ""
+	}
+
+	RadianceLightBall.DisplayName: 辐光的光球
+}

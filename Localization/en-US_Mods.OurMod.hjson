@@ -1,4 +1,4 @@
-﻿Mods: {
+Mods: {
 	OurMod: {
 		Items: {
 			OurSword: {
@@ -14,6 +14,11 @@ Items: {
 		DisplayName: My Sword
 		Tooltip: ""
 	}
+
+	RadianceStaff: {
+		DisplayName: Radiance Staff
+		Tooltip: The light forgotten in dreams
+	}
 }
 
 Projectiles: {
@@ -21,4 +26,6 @@ Projectiles: {
 		DisplayName: OurSwordBeam
 		Tooltip: ""
 	}
+
+	RadianceLightBall.DisplayName: Radiance's Lighting Ball
 }
