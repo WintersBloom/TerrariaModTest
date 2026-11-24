@@ -16,7 +16,7 @@ namespace OurMod.Projectiles
             Projectile.DamageType = DamageClass.Magic;
             Projectile.penetrate = 1;           // 只穿透一次
             Projectile.timeLeft = 300;          // 最大存在5秒
-            Projectile.tileCollide = false;     // 可穿墙
+            Projectile.tileCollide = true;     // 可穿墙
             Projectile.aiStyle = 0;             // 关闭原版 AI
             Projectile.usesLocalNPCImmunity = true; // 开启局部无敌帧
             Projectile.localNPCHitCooldown = -1;    // 允许对同一个敌怪每帧都能造成伤害（由我们手动控制独立无敌帧）
@@ -27,7 +27,7 @@ namespace OurMod.Projectiles
             //运动逻辑
             Projectile.ai[0]++;
             Lighting.AddLight(Projectile.Center,0.85f,0.8f,0.7f);       //自带光（三个数字分别代表红、绿、蓝的亮度，数值范围0~1，现在是略带金光的白光）
-            if(Projectile.ai[0]<=30){
+            if(Projectile.ai[0]<=20){
                 //前0.5s无操作
             }
             /*
@@ -98,7 +98,7 @@ namespace OurMod.Projectiles
                     NPC.HitInfo hitInfo=new NPC.HitInfo();
                     hitInfo.Damage=Projectile.damage;
                     hitInfo.Crit=false;     //无法暴击
-                    hitInfo.Knockback=6f;   //击退
+                    if(npc.type==)hitInfo.Knockback=6f;   //击退
                     hitInfo.HitDirection=explosionCenter.X>npc.Center.X?-1:1;   //判断攻击方向（确保不会反向击退）(HitDirection指攻击的朝向，也就是怪在攻击的哪边)
                     npc.StrikeNPC(hitInfo);
                 }
