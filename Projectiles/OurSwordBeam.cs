@@ -1,4 +1,6 @@
-﻿using Terraria;
+using Microsoft.Xna.Framework;
+using Terraria;
+using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 namespace OurMod.Projectiles;
@@ -32,4 +34,19 @@ public class OurSwordBeam :ModProjectile
 {
     Main.projFrames[Type] = 6;   // 6 帧，纵向等分
 }
+
+    // 撞到方块时调用，返回 true = 这个弹幕消失
+    public override bool OnTileCollide(Vector2 oldVelocity)
+    {
+        // SoundEngine.PlaySound 在指定位置播一个音效；
+        // with { Volume = ..., PitchVariance = ... } 是 C# 的 record with 表达式，用来改副本的音量/音调抖动
+        SoundEngine.PlaySound(SoundID.Item10 with { Volume = 0.6f, PitchVariance = 0.15f }, Projectile.Center);
+        return true;
+    }
+
+    // 打中敌人时调用（1.4.4 的签名带 NPC.HitInfo）
+    public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+    {
+        SoundEngine.PlaySound(SoundID.NPCHit1 with { Volume = 0.5f, PitchVariance = 0.1f }, target.Center);
+    }
 }
