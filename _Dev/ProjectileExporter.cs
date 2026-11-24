@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -11,7 +11,7 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace MyFirstMod._Dev;
+namespace OurMod._Dev;
 
 /// <summary>
 /// 【临时开发工具】把原版「剑气 / 剑光」类弹幕的贴图导出成 PNG，供参考画风。

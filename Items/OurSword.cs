@@ -1,12 +1,12 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using MyFirstMod.Projectiles;
-namespace MyFirstMod.Items;
+using OurMod.Projectiles;
+namespace OurMod.Items;
 
-// MySword：第一把自定义武器
-// 命名空间决定贴图路径：MyFirstMod.Items.MySword → Items/MySword.png
-public class MySword : ModItem
+// OurSword：第一把自定义武器
+// 命名空间决定贴图路径：OurMod.Items.OurSword → Items/OurSword.png
+public class OurSword : ModItem
 {
     // SetDefaults：填模板数据，注册阶段只跑一次；之后每次 new Item(id) 都是克隆这份模板
     public override void SetDefaults()
@@ -25,7 +25,7 @@ public class MySword : ModItem
         Item.autoReuse = true;                  // autoReuse：按住左键自动连续挥
         Item.maxStack = 1;                      // maxStack：堆叠上限，武器固定 1
         Item.scale = 1f;                        // scale：绘制缩放，1 = 原尺寸
-        Item.shoot      = ModContent.ProjectileType<MySwordBeam>();  // 声明：挥动时发射这个弹幕
+        Item.shoot      = ModContent.ProjectileType<OurSwordBeam>();  // 声明：挥动时发射这个弹幕
         Item.shootSpeed = 6f;   // 弹幕初速度，单位 像素/tick
 
     }

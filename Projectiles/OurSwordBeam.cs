@@ -1,8 +1,8 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-namespace MyFirstMod.Projectiles;
-public class MySwordBeam :ModProjectile
+namespace OurMod.Projectiles;
+public class OurSwordBeam :ModProjectile
 {
     public override void SetDefaults()
     {
