@@ -1,18 +1,7 @@
-Mods: {
-	OurMod: {
-		Items: {
-			OurSword: {
-				DisplayName: My Sword
-				Tooltip: ""
-			}
-		}
-	}
-}
-
 Items: {
 	OurSword: {
-		DisplayName: My Sword
-		Tooltip: ""
+		DisplayName: Our Sword
+		Tooltip: A starter sword made of iron and wood
 	}
 
 	RadianceStaff: {
@@ -21,16 +10,19 @@ Items: {
 	}
 
 	Congyuwan: {
-		Tooltip: ""
-		DisplayName: Congyuwan
+		DisplayName: Scallion Fishball
+		Tooltip: A stubborn little meatball
+	}
+}
+
+Buffs: {
+	Determination: {
+		DisplayName: Determination
+		Description: Fatal damage won't kill you immediately. You die when the countdown ends.
 	}
 }
 
 Projectiles: {
-	OurSwordBeam: {
-		DisplayName: OurSwordBeam
-		Tooltip: ""
-	}
-
+	OurSwordBeam.DisplayName: Our Sword Beam
 	RadianceLightBall.DisplayName: Radiance's Lighting Ball
 }

@@ -27,7 +27,9 @@ namespace OurMod.Dusts
         {
             // OnSpawn 在 Dust.NewDust 内部被调用，此时 position/velocity/color 已经由调用方设好
             dust.noGravity = false;    // 不受重力，悬浮着飘
-            dust.noLight = false;     // 允许影响环境光照（要发光就靠它）
+            // noLight = false 表示"这颗粒子是允许发光的"（源码注释：If true, the dust will not emit light）
+            // ⚠️ 它管的是"粒子自己发光"，不是"粒子受不受环境光照影响"，别和 Lighting.AddLight 搞混
+            dust.noLight = false;
             dust.frame = new Rectangle(0, 0, Cell, Cell);   // 默认第 0 种，调用方会覆盖成随机值
         }
 

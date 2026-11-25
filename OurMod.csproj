@@ -10,7 +10,4 @@
   <ItemGroup>
     <Compile Remove="_Dev/**/*.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dusts\" />
-  </ItemGroup>
 </Project>

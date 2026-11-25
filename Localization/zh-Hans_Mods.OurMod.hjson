@@ -1,18 +1,7 @@
-Mods: {
-	OurMod: {
-		Items: {
-			OurSword: {
-				// DisplayName: My Sword
-				// Tooltip: ""
-			}
-		}
-	}
-}
-
 Items: {
 	OurSword: {
-		DisplayName: My Sword
-		Tooltip: ""
+		DisplayName: 我们的剑
+		Tooltip: 一把用铁和木头拼起来的入门剑
 	}
 
 	RadianceStaff: {
@@ -21,16 +10,19 @@ Items: {
 	}
 
 	Congyuwan: {
-		// Tooltip: ""
-		// DisplayName: Congyuwan
+		DisplayName: 丛雨丸
+		Tooltip: 你是怎么把它拔出来的?
+	}
+}
+
+Buffs: {
+	Determination: {
+		DisplayName: 决心
+		Description: 你现在充满了决心
 	}
 }
 
 Projectiles: {
-	OurSwordBeam: {
-		// DisplayName: OurSwordBeam
-		// Tooltip: ""
-	}
-
+	OurSwordBeam.DisplayName: 我们的剑气
 	RadianceLightBall.DisplayName: 辐光的光球
 }
