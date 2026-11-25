@@ -1,0 +1,355 @@
+﻿ID,EnumName,ChineseName,EnglishName,IsDebuff,InMainDebuffTable,Description
+1,ObsidianSkin,黑曜石皮,Obsidian Skin,0,0,对熔岩免疫
+2,Regeneration,再生,Regeneration,0,0,提供生命再生
+3,Swiftness,敏捷,Swiftness,0,0,移动速度提高25%
+4,Gills,鱼鳃,Gills,0,0,可在水中而非空气中呼吸
+5,Ironskin,铁皮,Ironskin,0,0,防御力增加8点
+6,ManaRegeneration,魔力再生,Mana Regeneration,0,0,魔力再生增加
+7,MagicPower,魔能,Magic Power,0,0,魔法伤害增加20%
+8,Featherfall,羽落,Featherfall,0,0,按UP或DOWN来控制下降速度
+9,Spelunker,洞穴探险,Spelunker,0,0,显示宝藏和矿石的位置
+10,Invisibility,隐身,Invisibility,0,0,可隐身
+11,Shine,光芒,Shine,0,0,发光
+12,NightOwl,夜猫子,Night Owl,0,0,夜视力提升
+13,Battle,战斗,Battle,0,0,敌人生成速度提高
+14,Thorns,荆棘,Thorns,0,0,攻击者也会受伤
+15,WaterWalking,水上漂,Water Walking,0,0,按DOWN进入水中
+16,Archery,箭术,Archery,0,0,弓伤害增加10%，箭速度增加20%
+17,Hunter,猎人,Hunter,0,0,显示敌人位置
+18,Gravitation,重力,Gravitation,0,0,按UP可逆转重力
+19,ShadowOrb,暗影珠,Shadow Orb,0,0,可提供照明的魔法球
+20,Poisoned,中毒,Poisoned,1,1,缓慢损失生命值
+21,PotionSickness,药水疾病,Potion Sickness,1,1,不能再消耗治疗物品
+22,Darkness,黑暗,Darkness,1,1,光视能力下降
+23,Cursed,被诅咒,Cursed,1,1,无法使用任何物品
+24,OnFire,着火了！,On Fire!,1,1,缓慢损失生命值
+25,Tipsy,踉跄,Tipsy,0,1,近战能力提高，防御力降低
+26,WellFed,吃得好,Well Fed,0,0,所有属性小幅提升
+27,FairyBlue,仙灵,Fairy,0,0,仙灵将跟着你
+28,Werewolf,狼人,Werewolf,0,1,物理能力提高
+29,Clairvoyance,千里眼,Clairvoyance,0,0,魔能增加
+30,Bleeding,流血,Bleeding,1,1,无法再生生命
+31,Confused,困惑,Confused,1,1,移动方向逆转
+32,Slow,缓慢,Slow,1,1,移动速度降低
+33,Weak,软弱,Weak,1,1,物理能力下降
+34,Merfolk,人鱼,Merfolk,0,1,可在水下呼吸和轻松移动
+35,Silenced,寂静,Silenced,1,1,无法使用需要魔力的物品
+36,BrokenArmor,破损盔甲,Broken Armor,1,1,防御力减半
+37,Horrified,惊恐,Horrified,1,1,你已经看到一些令人讨厌的东西，而且无路可逃。
+38,TheTongue,狂卷之舌,The Tongue,1,1,你被吸入嘴中
+39,CursedInferno,诅咒地狱,Cursed Inferno,1,1,正在损失生命值
+40,PetBunny,宠物兔,Pet Bunny,0,0,我想它想要你的胡萝卜
+41,BabyPenguin,企鹅宝宝,Baby Penguin,0,0,我想它想要你的鱼
+42,PetTurtle,宠物海龟,Pet Turtle,0,0,欢乐乌龟时光！
+43,PaladinsShield,圣骑士护盾,Paladin's Shield,0,0,所受伤害的25%将被重新定向到其他玩家
+44,Frostburn,霜冻,Frostburn,1,1,要么特别热，要么特别冷。无论哪种方式都带来极大伤害
+45,BabyEater,吞噬怪宝宝,Baby Eater,0,0,噬魂怪宝宝将跟着你
+46,Chilled,冷冻,Chilled,1,1,你的移动速度已降低
+47,Frozen,冰冻,Frozen,1,1,你不能动！
+48,Honey,蜂蜜,Honey,0,0,生命再生速度提高
+49,Pygmies,矮人,Pygmies,0,0,矮人将为你而战
+50,BabySkeletronHead,骷髅王宝宝头,Baby Skeletron Head,0,0,别问了...
+51,BabyHornet,黄蜂宝宝,Baby Hornet,0,0,它认为你是它的妈妈
+52,TikiSpirit,提基幽魂,Tiki Spirit,0,0,友好幽魂将跟着你
+53,PetLizard,宠物蜥蜴,Pet Lizard,0,0,像爬行动物一样冷漠
+54,PetParrot,宠物鹦鹉,Pet Parrot,0,0,波利想要饼干
+55,BabyTruffle,松露人宝宝,Baby Truffle,0,0,这简直太可爱了！
+56,PetSapling,宠物树苗,Pet Sapling,0,0,小树苗将跟着你
+57,Wisp,妖灵,Wisp,0,0,妖灵将跟着你
+58,RapidHealing,快速治疗,Rapid Healing,0,0,生命再生速度大幅提高
+59,ShadowDodge,神圣防护,Holy Protection,0,0,你将躲避下一次攻击
+60,LeafCrystal,叶状水晶,Leaf Crystal,0,0,朝附近的敌人射出水晶叶
+61,BabyDinosaur,恐龙宝宝,Baby Dinosaur,0,0,恐龙宝宝将跟着你
+62,IceBarrier,冰障,Ice Barrier,0,0,所受伤害减少25%
+63,Panic,恐慌！,Panic!,0,0,移动速度提高
+64,BabySlime,史莱姆宝宝,Baby Slime,0,0,史莱姆宝宝将为你而战
+65,EyeballSpring,弹簧眼,Eyeball Spring,0,0,弹簧眼将跟着你
+66,BabySnowman,雪人宝宝,Baby Snowman,0,0,雪人宝宝将跟着你
+67,Burning,燃烧,Burning,1,1,正在损失生命值且移动已放缓
+68,Suffocation,窒息,Suffocation,1,1,正在损失生命值
+69,Ichor,灵液,Ichor,1,1,防御力减少
+70,Venom,酸性毒液,Acid Venom,1,1,正在损失生命值
+71,WeaponImbueVenom,武器灌注：酸性毒液,Weapon Imbue: Acid Venom,0,0,近战攻击会对你的目标施放酸性毒液
+72,Midas,迈达斯,Midas,0,0,死亡时掉落更多钱
+73,WeaponImbueCursedFlames,武器灌注：诅咒焰,Weapon Imbue: Cursed Flames,0,0,近战攻击会对敌人施放诅咒焰
+74,WeaponImbueFire,武器灌注：火焰,Weapon Imbue: Fire,0,0,近战攻击会点燃敌人
+75,WeaponImbueGold,武器灌注：金,Weapon Imbue: Gold,0,0,近战攻击会使敌人掉落更多金子
+76,WeaponImbueIchor,武器灌注：灵液,Weapon Imbue: Ichor,0,0,近战攻击会降低敌人防御力
+77,WeaponImbueNanites,武器灌注：纳米机器人,Weapon Imbue: Nanites,0,0,近战攻击会迷惑敌人
+78,WeaponImbueConfetti,武器灌注：彩纸,Weapon Imbue: Confetti,0,0,近战攻击会喷撒彩纸
+79,WeaponImbuePoison,武器灌注：毒药,Weapon Imbue: Poison,0,0,近战攻击会使敌人中毒
+80,Blackout,灯火管制,Blackout,1,1,光视能力严重下降
+81,PetSpider,宠物蜘蛛,Pet Spider,0,0,蜘蛛将跟着你
+82,Squashling,南瓜娃娃,Squashling,0,0,南瓜娃娃将跟着你
+83,Ravens,乌鸦,Ravens,0,0,乌鸦将攻击你的敌人
+84,BlackCat,黑猫,Black Cat,0,0,黑猫将跟着你
+85,CursedSapling,诅咒树苗,Cursed Sapling,0,0,诅咒树苗将跟着你
+86,WaterCandle,水蜡烛,Water Candle,0,1,怪物生成速度提高
+87,Campfire,温馨之火,Cozy Fire,0,1,生命再生速度略有提高
+88,ChaosState,混乱状态,Chaos State,1,1,使用混沌传送杖将消耗生命值
+89,HeartLamp,心灯,Heart Lamp,0,1,生命再生速度提高
+90,Rudolph,鲁道夫,Rudolph,0,0,骑乘红鼻子驯鹿
+91,Puppy,小狗,Puppy,0,0,小狗将跟着你
+92,BabyGrinch,格林奇宝宝,Baby Grinch,0,0,格林奇宝宝将跟着你
+93,AmmoBox,弹药箱,Ammo Box,0,0,20%的几率节省弹药
+94,ManaSickness,魔力疾病,Mana Sickness,1,1,魔法伤害减少 
+95,BeetleEndurance1,甲虫耐力,Beetle Endurance,0,0,所受伤害减少15%
+96,BeetleEndurance2,甲虫耐力,Beetle Endurance,0,0,所受伤害减少30%
+97,BeetleEndurance3,甲虫耐力,Beetle Endurance,0,0,所受伤害减少45%
+98,BeetleMight1,甲虫力量,Beetle Might,0,0,近战伤害和速度各增加10%
+99,BeetleMight2,甲虫力量,Beetle Might,0,0,近战伤害和速度各增加20%
+100,BeetleMight3,甲虫力量,Beetle Might,0,0,近战伤害和速度各增加30%
+101,FairyRed,仙灵,Fairy,0,0,仙灵将跟着你
+102,FairyGreen,仙灵,Fairy,0,0,仙灵将跟着你
+103,Wet,潮湿,Wet,1,1,你在滴水
+104,Mining,采矿,Mining,0,0,挖矿速度增加25%
+105,Heartreach,拾心,Heartreach,0,0,心拾取范围扩大
+106,Calm,冷静,Calm,0,0,敌人生成速度降低
+107,Builder,建筑工,Builder,0,0,放置速度和范围增加
+108,Titan,泰坦,Titan,0,0,击退力提高
+109,Flipper,脚蹼,Flipper,0,0,在水中正常移动
+110,Summoning,召唤,Summoning,0,0,仆从数量上限提高
+111,Dangersense,危险感,Dangersense,0,0,你可以看到附近的危险
+112,AmmoReservation,弹药储备,Ammo Reservation,0,0,20%的几率节省弹药
+113,Lifeforce,生命力,Lifeforce,0,0,最大生命值增加20%
+114,Endurance,耐力,Endurance,0,0,伤害减少10%
+115,Rage,暴怒,Rage,0,0,暴击率增加10%
+116,Inferno,狱火,Inferno,0,0,附近的敌人被点燃
+117,Wrath,怒气,Wrath,0,0,伤害增加10%
+118,MinecartLeft,矿车,Minecart,0,0,驾驶矿车
+119,Lovestruck,热恋,Lovestruck,1,1,你已坠入爱河！
+120,Stinky,恶臭,Stinky,1,1,你的味道真难闻
+121,Fishing,钓鱼,Fishing,0,0,渔力提高
+122,Sonar,声纳,Sonar,0,0,你能看到是什么在咬你的鱼钩
+123,Crate,宝匣,Crate,0,0,钓上宝匣的几率更大
+124,Warmth,温暖,Warmth,0,0,冷系伤害减少
+125,HornetMinion,黄蜂,Hornet,0,0,黄蜂将为你而战
+126,ImpMinion,小鬼,Imp,0,0,小鬼将为你而战
+127,ZephyrFish,和风鱼,Zephyr Fish,0,0,它喜欢在你周围游泳
+128,BunnyMount,兔兔坐骑,Bunny Mount,0,0,你渴望胡萝卜
+129,PigronMount,猪龙坐骑,Pigron Mount,0,0,你现在看到我了……
+130,SlimeMount,史莱姆坐骑,Slime Mount,0,0,啵嘤！
+131,TurtleMount,海龟坐骑,Turtle Mount,0,0,陆地上速度缓慢，海上则可急速疾行
+132,BeeMount,蜜蜂坐骑,Bee Mount,0,0,嗡嗡嗡嗡
+133,SpiderMinion,蜘蛛,Spider,0,0,蜘蛛将为你而战
+134,TwinEyesMinion,双子魔眼,Twins,0,0,双子魔眼将为你而战
+135,PirateMinion,海盗,Pirate,0,0,海盗将为你而战
+136,MiniMinotaur,迷你牛头怪,Mini Minotaur,0,0,你如何打败迷你牛头怪？
+137,Slimed,史莱姆,Slime,1,1,你粘糊糊的
+138,MinecartRight,矿车,Minecart,0,0,驾驶矿车
+139,SharknadoMinion,鲨鱼旋风,Sharknado,0,0,鲨鱼旋风将为你而战
+140,UFOMinion,UFO,UFO,0,0,UFO将为你而战
+141,UFOMount,UFO坐骑,UFO Mount,0,0,你拥有MAC真是太好了
+142,DrillMount,钻头坐骑,Drill Mount,0,0,骑乘飞钻头
+143,ScutlixMount,鳞甲怪坐骑,Scutlix Mount,0,0,劈劈啪啪
+144,Electrified,带电,Electrified,1,1,一动就痛！
+145,MoonLeech,月噬,Moon Bite,1,1,你无法吸收治疗效果
+146,Sunflower,快乐！,Happy!,0,1,移动速度提高，怪物生成减少
+147,MonsterBanner,旗帜,Banner,0,1,伤害和防御力因下列原因增加：
+148,Rabies,野性咬噬,Feral Bite,1,1,伤害增加，生命再生速度降低，对状态造成影响
+149,Webbed,织网,Webbed,1,1,你被卡住了
+150,Bewitched,着魔,Bewitched,0,0,仆从数量上限提高
+151,SoulDrain,夺命杖,Life Drain,0,0,生命再生速度提高
+152,MagicLantern,魔法灯笼,Magic Lantern,0,0,附魔灯笼将为你照亮前路
+153,ShadowFlame,暗影焰,Shadowflame,1,1,正在损失生命值
+154,BabyFaceMonster,脸怪宝宝,Baby Face Monster,0,0,脸怪宝宝将跟着你
+155,CrimsonHeart,猩红之心,Crimson Heart,0,0,可提供照明的魔法心
+156,Stoned,恍惚,Stoned,1,1,你已完全石化！
+157,PeaceCandle,和平蜡烛,Peace Candle,0,1,怪物生成速度降低
+158,StarInBottle,星星瓶,Star in a Bottle,0,1,魔力再生增加
+159,Sharpened,锋利,Sharpened,0,0,近战武器具有盔甲穿透力
+160,Dazed,眩晕,Dazed,1,1,移动大大放缓
+161,DeadlySphere,致命球,Deadly Sphere,0,0,致命球将为你而战
+162,UnicornMount,独角兽坐骑,Unicorn Mount,0,0,向前冲...太棒了！
+163,Obstructed,阻塞,Obstructed,1,1,你看不到！
+164,VortexDebuff,扭曲,Distorted,1,1,你周围的重力是扭曲的
+165,DryadsWard,树妖祝福,Dryad's Blessing,0,0,自然的力量保护你
+166,MinecartRightMech,矿车,Minecart,0,0,驾驶矿车
+167,MinecartLeftMech,矿车,Minecart,0,0,驾驶矿车
+168,CuteFishronMount,可爱猪龙鱼坐骑,Cute Fishron Mount,0,0,不要让它爬行。
+169,BoneJavelin,穿透,Penetrated,0,0,血流不止
+170,SolarShield1,太阳烈焰,Solar Blaze,0,0,所受伤害减少30%，受伤时驱除敌人
+171,SolarShield2,太阳烈焰,Solar Blaze,0,0,所受伤害减少30%，受伤时驱除敌人
+172,SolarShield3,太阳烈焰,Solar Blaze,0,0,所受伤害减少30%，受伤时驱除敌人
+173,NebulaUpLife1,生命星云,Life Nebula,0,0,生命再生速度提高
+174,NebulaUpLife2,生命星云,Life Nebula,0,0,生命再生速度提高
+175,NebulaUpLife3,生命星云,Life Nebula,0,0,生命再生速度提高
+176,NebulaUpMana1,魔力星云,Mana Nebula,0,0,魔力再生增加
+177,NebulaUpMana2,魔力星云,Mana Nebula,0,0,魔力再生增加
+178,NebulaUpMana3,魔力星云,Mana Nebula,0,0,魔力再生增加
+179,NebulaUpDmg1,伤害星云,Damage Nebula,0,0,伤害增加15%
+180,NebulaUpDmg2,伤害星云,Damage Nebula,0,0,伤害增加30%
+181,NebulaUpDmg3,伤害星云,Damage Nebula,0,0,伤害增加45%
+182,StardustMinion,星尘细胞,Stardust Cell,0,0,星尘细胞将为你而战
+183,StardustMinionBleed,Celled,Celled,0,0,being eaten by cells
+184,MinecartLeftWood,矿车,Minecart,0,0,驾驶矿车
+185,MinecartRightWood,矿车,Minecart,0,0,驾驶矿车
+186,DryadsWardDebuff,树妖祸害,Dryad's Bane,0,0,自然的力量强迫你
+187,StardustGuardianMinion,星尘守卫,Stardust Guardian,0,0,星尘守卫将保护你
+188,StardustDragonMinion,星尘之龙,Stardust Dragon,0,0,星尘之龙将保护你
+189,Daybreak,破晓,Daybroken,1,0,已被太阳光线焚化
+190,SuspiciousTentacle,可疑眼球,Suspicious Looking Eye,0,0,可提供照明的可疑眼球
+191,CompanionCube,同伴方块,Companion Cube,0,0,永远不会威胁刺伤你，而且事实上也无法讲话
+192,SugarRush,糖果冲刺,Sugar Rush,0,0,移动和采矿速度各提高20%
+193,BasiliskMount,蛇蜥怪坐骑,Basilisk Mount,0,0,撞向任何人...每个人！
+194,WindPushed,强风,Mighty Wind,1,1,风带着你四处移动！
+195,WitheredArmor,枯萎盔甲,Withered Armor,1,1,你的盔甲降级了！
+196,WitheredWeapon,枯萎武器,Withered Weapon,1,1,你的攻击变弱了！
+197,OgreSpit,渗出,Oozed,1,1,移动速度显著降低
+198,ParryDamageBuff,惊人一刻,Striking Moment,0,0,下次近战暴击伤害增加400%
+199,NoBuilding,创意震撼,Creative Shock,1,1,你已失去创造能力！
+200,PetDD2Gato,飞翔Gato,Propeller Gato,0,0,飞翔Gato将跟着你
+201,PetDD2Ghost,闪烁灯芯,Flickerwick,0,0,闪烁灯芯将跟着你
+202,PetDD2Dragon,Hoardagron,Hoardagron,0,0,Hoardagron将跟着你
+203,BetsysCurse,双足翼龙诅咒,Betsy's Curse,0,0,防御力降低
+204,Oiled,涂油,Oiled,1,0,因着火受到更多伤害
+205,BallistaPanic,弩车恐慌！,Ballista Panic!,0,0,你的弩车在惊慌之下快速射击！
+206,WellFed2,很满意,Plenty Satisfied,0,0,所有属性中幅提升
+207,WellFed3,精美毛绒玩具,Exquisitely Stuffed,0,0,所有属性大幅提升
+208,DesertMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+209,DesertMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+210,FishMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+211,FishMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+212,GolfCartMount,高尔夫球车,Golf Cart,0,0,穿过平坦球道的好方法
+213,BatOfLight,血红蝙蝠,Sanguine Bat,0,0,血红蝙蝠将为你而战
+214,VampireFrog,吸血鬼青蛙,Vampire Frog,0,0,吸血鬼青蛙将为你而战
+215,CatBast,韧皮防御,The Bast Defense,1,1,防御力增加5点
+216,BabyBird,雀宝宝,Baby Finch,0,0,雀宝宝将为你而战
+217,UpbeatStar,埃斯蒂,Estee,0,0,埃斯蒂将跟着你
+218,SugarGlider,蜜袋鼯,Sugar Glider,0,0,蜜袋鼯将跟着你
+219,SharkPup,小鲨鱼,Shark Pup,0,0,嘟嘟嘟嘟嘟嘟
+220,BeeMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+221,BeeMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+222,LadybugMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+223,LadybugMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+224,PigronMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+225,PigronMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+226,SunflowerMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+227,SunflowerMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+228,HellMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+229,HellMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+230,WitchBroom,女巫扫帚,Witch's Broom,0,0,它飞起来了！有巫术！
+231,ShroomMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+232,ShroomMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+233,AmethystMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+234,AmethystMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+235,TopazMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+236,TopazMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+237,SapphireMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+238,SapphireMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+239,EmeraldMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+240,EmeraldMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+241,RubyMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+242,RubyMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+243,DiamondMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+244,DiamondMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+245,AmberMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+246,AmberMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+247,BeetleMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+248,BeetleMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+249,MeowmereMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+250,MeowmereMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+251,PartyMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+252,PartyMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+253,PirateMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+254,PirateMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+255,SteampunkMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+256,SteampunkMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+257,Lucky,幸运,Lucky,0,0,你觉得自己很幸运
+258,LilHarpy,小鸟妖,Lil' Harpy,0,0,来自天上的可爱
+259,FennecFox,耳廓狐,Fennec Fox,0,0,狐狸说了什么？更重要的是，狐狸听到了什么？！
+260,GlitteryButterfly,闪光蝴蝶,Glittery Butterfly,0,0,真的真的反常
+261,BabyImp,小鬼宝宝,Baby Imp,0,0,等到他两岁的时候走着瞧吧！
+262,BabyRedPanda,小熊猫宝宝,Baby Red Panda,0,0,小熊猫宝宝将跟着你
+263,StormTiger,沙漠虎,Desert Tiger,0,0,沙漠虎将与你并肩作战
+264,Plantero,微型世纪之花,Plantero,0,0,小植物将跟着你
+265,Flamingo,火烈鸟,Flamingo,0,0,火烈鸟加油
+266,DynamiteKitten,雷管小猫,Dynamite Kitten,0,0,不可用于大炮
+267,BabyWerewolf,狼人宝宝,Baby Werewolf,0,0,狼人宝宝将跟着你
+268,ShadowMimic,暗影宝箱怪,Shadow Mimic,0,0,暗影宝箱怪将跟着你
+269,CoffinMinecartRight,{$BuffName.MinecartRight},{$BuffName.MinecartRight},0,0,{$BuffDescription.MinecartRight}
+270,CoffinMinecartLeft,{$BuffName.MinecartLeft},{$BuffName.MinecartLeft},0,0,{$BuffDescription.MinecartLeft}
+271,Smolstar,附魔飞刀,Enchanted Daggers,0,0,千刀万剐
+272,DiggingMoleMinecartRight,挖掘鼹鼠矿车,Digging Molecart,0,0,鼹鼠矿车将为你挖掘
+273,DiggingMoleMinecartLeft,挖掘鼹鼠矿车,Digging Molecart,0,0,鼹鼠矿车将为你挖掘
+274,VoltBunny,伏特兔,Volt Bunny,0,0,伏特兔迷上你了
+275,PaintedHorseMount,彩马坐骑,Painted Horse Mount,0,0,骑上一匹彩马
+276,MajesticHorseMount,壮马坐骑,Majestic Horse Mount,0,0,骑上一匹壮马
+277,DarkHorseMount,黑马坐骑,Dark Horse Mount,0,0,骑上一匹黑马
+278,PogoStickMount,蹦蹦跷坐骑,Pogo Stick Mount,0,0,咔咝唏嗑！咔咝唏嗑！咔咝唏嗑！
+279,PirateShipMount,海盗船坐骑,Pirate Ship Mount,0,0,你现在是船长了
+280,SpookyWoodMount,阴森树坐骑,Tree Mount,0,0,向前跑，小树林，别回头！
+281,SantankMount,圣诞老人坦克坐骑,Santank Mount,0,0,从淘气名单上划掉……
+282,WallOfFleshGoatMount,山羊坐骑,Goat Mount,0,0,这完全是金属摇滚范儿！
+283,DarkMageBookMount,书坐骑,Book Mount,0,0,这本书现在对你的指导有帮助
+284,KingSlimePet,史莱姆王子,Slime Prince,0,0,他听命于上级
+285,EyeOfCthulhuPet,可疑眼睛,Suspicious Eye,0,0,眼珠子机灵点……
+286,EaterOfWorldsPet,蠕虫吞噬怪,Eater of Worms,0,0,会毁掉几个后院
+287,BrainOfCthulhuPet,蜘蛛脑,Spider Brain,0,0,它爬来爬去的……真恶心
+288,SkeletronPet,小骷髅王,Skeletron Jr.,0,0,小骷髅王将跟着你
+289,QueenBeePet,蜜蜂,Honey Bee,0,0,蜜蜂将跟着你
+290,DestroyerPet,微型毁灭者,Destroyer-Lite,0,0,用于随时进行摧毁
+291,TwinsPet,激光眼和魔焰眼,Rez and Spaz,0,0,你有一双特别的眼睛！
+292,SkeletronPrimePet,小机械骷髅王,Mini Prime,0,0,每一种武器都致命
+293,PlanteraPet,世纪之花幼苗,Plantera Seedling,0,0,它到底吃什么呢？
+294,GolemPet,玩具石巨人,Toy Golem,0,0,给自己一个会哭、会说话、会睡觉、会走路的活神像！
+295,DukeFishronPet,小猪龙鱼,Tiny Fishron,0,0,海绿色的深渊侯爵
+296,LunaticCultistPet,幻影龙,Phantasmal Dragon,0,0,它一直看着月亮
+297,MoonLordPet,月精灵,Moonling,0,0,来自远方的朋友
+298,FairyQueenPet,仙灵公主,Fairy Princess,0,0,美人之光普照众生
+299,PumpkingPet,杰克南瓜灯,Jack 'O Lantern,0,0,一盏小杰克南瓜灯像恶魔似地照亮道路
+300,EverscreamPet,常绿尖叫怪树苗,Everscream Sapling,0,0,带着树去散步！
+301,IceQueenPet,冰雪女王,Ice Queen,0,0,冰雪女王已经重生为你的同伴
+302,MartianPet,异星滑板小子,Alien Skater,0,0,你们好，人类同胞们？
+303,DD2OgrePet,食人魔宝宝,Baby Ogre,0,0,他有一根大棒，但不知道怎么用它
+304,DD2BetsyPet,小双足翼龙,Itsy Betsy,0,0,小双足翼龙将跟着你
+305,LavaSharkMount,熔岩鲨坐骑,Lava Shark Mount,0,0,在融化的海洋中冲浪！
+306,TitaniumStorm,钛金屏障,Titanium Barrier,0,0,防御碎片包围着你
+307,BlandWhipEnemyDebuff,,,0,0,
+308,SwordWhipPlayerBuff,迪朗达尔祝福,Durendal's Blessing,0,0,鞭子速度增加
+309,SwordWhipNPCDebuff,,,0,0,
+310,ScytheWhipEnemyDebuff,,,0,0,
+311,ScytheWhipPlayerBuff,丰收时刻,Harvest Time,0,0,鞭子速度增加
+312,CoolWhipPlayerBuff,一种不错的增益,A Nice Buff,0,0,召唤雪花可让它为你作战
+313,FlameWhipEnemyDebuff,,,0,0,
+314,ThornWhipPlayerBuff,丛林之怒,Jungle's Fury,0,0,鞭子速度增加
+315,ThornWhipNPCDebuff,,,0,0,
+316,RainbowWhipNPCDebuff,,,0,0,
+317,QueenSlimePet,史莱姆公主,Slime Princess,0,0,她就是上级
+318,QueenSlimeMount,羽翼史莱姆坐骑,Winged Slime Mount,0,0,啵嘤扑扑啵嘤！
+319,MaceWhipNPCDebuff,,,0,0,
+320,GelBalloonBuff,闪耀史莱姆,Sparkle Slime,0,1,你黏糊糊的，还发着光
+321,BrainOfConfusionBuff,控脑术,Cerebral Mindtrick,0,1,暴击率增加
+322,EmpressBlade,泰拉棱镜,Terraprisma,0,0,刃之女皇将为你而战
+323,OnFire3,狱火,Hellfire,1,0,缓慢损失生命值
+324,Frostburn2,冻伤,Frostbite,1,0,要么特别热，要么特别冷。无论哪种方式都带来极大伤害
+325,FlinxMinion,小雪怪,Flinx,0,0,小雪怪将为你而战
+326,BoneWhipNPCDebuff,,,0,0,
+327,BerniePet,伯尼,Bernie,0,0,伯尼，你总是陪在我身边
+328,GlommerPet,咕噜咪,Glommer,0,0,它长有绒毛！还黏糊糊的……
+329,DeerclopsPet,微小鹿角怪,Tiny Deerclops,0,0,天哪！
+330,PigPet,猪人,Pig,0,0,行走的培根！
+331,ChesterPet,切斯特,Chester,0,0,奥特·冯·切斯特菲尔德先生
+332,NeutralHunger,稍饿,Peckish,1,1,你可以吃东西，但情况没那么糟。
+333,Hunger,饥饿,Hungry,1,1,你很饿，而且感觉很虚弱。
+334,Starving,极饿,Starving,1,1,你快饿死了！马上吃东西吧！
+335,AbigailMinion,阿比盖尔,Abigail,0,0,阿比盖尔将为了保护你而战
+336,HeartyMeal,丰盛大餐,Hearty Meal,0,0,提高生命再生速度
+337,TentacleSpike,,,0,0,
+338,FartMinecartRight,放屁车,Fart Kart,0,0,{$BuffDescription.MinecartRight}
+339,FartMinecartLeft,{$BuffName.FartMinecartRight},{$BuffName.FartMinecartRight},0,0,{$BuffDescription.MinecartLeft}
+340,CoolWhipNPCDebuff,,,0,0,
+341,DualSlimePet,皇家史莱姆,Slime Royals,0,0,最终权威，他们将统一王国！
+342,WolfMount,月亮祝福,Blessing of the Moon,0,0,你变成了狼！
+343,BiomeSight,生物群落观测,Biome Sight,0,0,显示感染物块的位置
+344,BloodButcherer,血腥屠宰,Blood Butchered,1,0,迅速出血
+345,JunimoPet,祝尼魔,Junimo,0,0,森林守护者
+346,TerraFartMinecartRight,泰拉放屁车,Terra Fart Kart,0,0,{$BuffDescription.MinecartRight}
+347,TerraFartMinecartLeft,{$BuffName.TerraFartMinecartRight},{$BuffName.TerraFartMinecartRight},0,0,{$BuffDescription.MinecartLeft}
+348,WarTable,战略家,Strategist,0,0,哨兵数量上限增加
+349,BlueChickenPet,蓝鸡,Blue Chicken,0,0,名牌上写着“谢恩”
+350,ShadowCandle,影烛,Shadow Candle,0,1,驱散城镇的宁静
+351,Spiffo,棕绒浣熊,Spiffo,0,0,“你就是这样没命的”
+352,CavelingGardener,洞穴园丁,Caveling Gardener,0,0,哈嘿啊忒！
+353,Shimmer,闪光,Shimmering,0,1,你虚化了！
+354,DirtiestBlock,最脏的块,The Dirtiest Block,0,0,你可以从多余的泥土看出来
