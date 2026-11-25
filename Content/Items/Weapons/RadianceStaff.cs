@@ -1,8 +1,8 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using OurMod.Projectiles;
-namespace OurMod.Items
+using OurMod.Content.Projectiles;
+namespace OurMod.Content.Items.Weapons
 {
     public class RadianceStaff:ModItem
     {

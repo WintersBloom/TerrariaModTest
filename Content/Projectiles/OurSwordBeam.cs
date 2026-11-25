@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 using System;
 using OurMod.Common;
 
-namespace OurMod.Projectiles;
+namespace OurMod.Content.Projectiles;
 
 public class OurSwordBeam : ModProjectile
 {

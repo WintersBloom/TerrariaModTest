@@ -1,18 +1,16 @@
-﻿using Terraria;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using OurMod.Projectiles;
-namespace OurMod.Items;
+using OurMod.Content.Projectiles;
+namespace OurMod.Content.Items.Weapons;
 
-// OurSword：第一把自定义武器
-// 命名空间决定贴图路径：OurMod.Items.OurSword → Items/OurSword.png
-public class OurSword : ModItem
+public class Congyuwan : ModItem
 {
-    // SetDefaults：填模板数据，注册阶段只跑一次；之后每次 new Item(id) 都是克隆这份模板
+
     public override void SetDefaults()
     {
-        Item.width = 48;                        // width：碰撞箱宽（像素），等于贴图宽
-        Item.height = 48;                       // height：碰撞箱高（像素）
+        Item.width = 87;                        // width：碰撞箱宽（像素），等于贴图宽
+        Item.height = 90;                       // height：碰撞箱高（像素）
         Item.damage = 20;                       // damage：基础伤害
         Item.DamageType = DamageClass.Melee;    // DamageClass.Melee：近战伤害类型
         Item.useStyle = ItemUseStyleID.Swing;   // Swing：挥舞动画（剑的标准挥法）
@@ -25,8 +23,5 @@ public class OurSword : ModItem
         Item.autoReuse = true;                  // autoReuse：按住左键自动连续挥
         Item.maxStack = 1;                      // maxStack：堆叠上限，武器固定 1
         Item.scale = 1f;                        // scale：绘制缩放，1 = 原尺寸
-        Item.shoot      = ModContent.ProjectileType<OurSwordBeam>();  // 声明：挥动时发射这个弹幕
-        Item.shootSpeed = 6f;   // 弹幕初速度，单位 像素/tick
-
     }
 }

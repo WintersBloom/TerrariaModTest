@@ -1,0 +1,20 @@
+Items               所有物品
+Projectiles         所有弹幕
+NPCs                所有NPC（包含BOSS、小怪、城镇NPC）
+TilesAndWalls       所有放置状态的物块、家具与墙等
+BuffsAndPrefixes    所有自定义Buff与词缀
+DustsAndSounds      所有自定义粒子与音频
+UI                  自定义界面元素
+Assets              其他资源（着色器、字体等）
+
+
+Items细分：
+    Weapons         武器
+    Accessories     饰品
+    Armor           盔甲
+    Materials       材料（可升级武器、饰品等不归此类）
+    Consumables     消耗品（弹药、药水、投掷物、召唤物等）
+    Placeables      可放置物（物块、家具、墙等）（金属锭等主为材料的物品不归此类）
+    Tools           工具
+    Vanity          时装
+    Misc            杂项（其它不好分类的物品）

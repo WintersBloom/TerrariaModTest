@@ -2,16 +2,15 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using OurMod.Projectiles;
-namespace OurMod.Projectiles
+namespace OurMod.Content.Projectiles
 {
     public class RadianceLightBall:ModProjectile
     {
         //基础设置
         public override void SetDefaults()
         {
-            Projectile.width = 24;
-            Projectile.height = 24;     //这里设置的比实际贴图大小小点，40*40碰撞箱太大了
+            Projectile.width = 40;
+            Projectile.height = 40;
             Projectile.friendly = true;
             Projectile.DamageType = DamageClass.Magic;
             Projectile.penetrate = 1;           // 只命中一次就消失

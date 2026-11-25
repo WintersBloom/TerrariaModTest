@@ -1,0 +1,9 @@
+Weapons         武器
+Accessories     饰品
+Armor           盔甲
+Materials       材料（可升级武器、饰品等不归此类）
+Consumables     消耗品（弹药、药水、投掷物、召唤物等）
+Placeables      可放置物（物块、家具、墙等）（金属锭等主为材料的物品不归此类）
+Tools           工具
+Vanity          时装
+Misc            其它
