@@ -14,7 +14,10 @@ public class Determination:ModBuff
 
     public override void SetStaticDefaults()
     {
-        Main.buffNoTimeDisplay[Type] = true;// 不显示剩余时间（我们用自定义 _timer，本来也不该显示）
+
+
+        Main.buffNoTimeDisplay[Type] = true;
+
         // buffNoSave：true = 退出世界**不**保留，false = 保存。
         // 这里写 false，效果是"退出世界后这个 buff 还在"。
         Main.buffNoSave[Type] = false;
@@ -22,6 +25,15 @@ public class Determination:ModBuff
         // persistentBuff：true = 死亡后**保留**，false = 死亡时清掉。
         // 这里要"这次决心用完就没了"，所以 false。
         Main.persistentBuff[Type] = false;
+    }
+
+    /// <summary>
+    /// 右键点 buff 图标时调用。返回 false = 玩家没法主动取消它。
+    /// 文档原文：Return false to prevent the buff from being cancelled.
+    /// </summary>
+    public override bool RightClick(int buffIndex)
+    {
+        return false;
     }
 
     public override void Update(Player player, ref int buffIndex)
