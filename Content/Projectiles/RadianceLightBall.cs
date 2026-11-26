@@ -92,7 +92,11 @@ namespace OurMod.Content.Projectiles
             for(int i = 0; i < Main.maxNPCs; i++)
             {
                 NPC npc=Main.npc[i];
-                if(npc.active && !npc.friendly && !npc.dontTakeDamage && Vector2.Distance(explosionCenter, npc.Center) <= explosionRadius)
+                Rectangle box = npc.Hitbox;
+                Vector2 closest = new Vector2(
+                    MathHelper.Clamp(explosionCenter.X, box.Left, box.Right),
+                    MathHelper.Clamp(explosionCenter.Y, box.Top,  box.Bottom));     //获取敌怪碰撞箱离射弹中心最近点的坐标
+                if(npc.active && !npc.friendly && !npc.dontTakeDamage && Vector2.Distance(explosionCenter, closest) <= explosionRadius)
                 {
                     //攻击方向：怪在爆心右边就向左推，在左边就向右推（确保不会被反向击退）
                     //HitDirection 指攻击的朝向，也就是怪在攻击的哪一边
