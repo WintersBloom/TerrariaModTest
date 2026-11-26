@@ -13,6 +13,11 @@ Items: {
 		DisplayName: 丛雨丸
 		Tooltip: 你是怎么把它拔出来的?
 	}
+
+	JoustingLance: {
+		// DisplayName: Jousting Lance
+		// Tooltip: ""
+	}
 }
 
 Buffs: {
@@ -25,4 +30,5 @@ Buffs: {
 Projectiles: {
 	OurSwordBeam.DisplayName: 我们的剑气
 	RadianceLightBall.DisplayName: 辐光的光球
+	// JoustingLanceProjectile.DisplayName: Jousting Lance Projectile
 }

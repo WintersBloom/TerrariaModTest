@@ -13,6 +13,11 @@ Items: {
 		DisplayName: Scallion Fishball
 		Tooltip: A stubborn little meatball
 	}
+
+	JoustingLance: {
+		DisplayName: Jousting Lance
+		Tooltip: ""
+	}
 }
 
 Buffs: {
@@ -25,4 +30,5 @@ Buffs: {
 Projectiles: {
 	OurSwordBeam.DisplayName: Our Sword Beam
 	RadianceLightBall.DisplayName: Radiance's Lighting Ball
+	JoustingLanceProjectile.DisplayName: Jousting Lance Projectile
 }
